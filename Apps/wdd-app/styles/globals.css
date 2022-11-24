@@ -1,0 +1,122 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contact-list {
+  width: 40%;
+}
+.contact-list-wrapper {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.contact {
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  vertical-align: top;
+}
+.contact > * {
+  vertical-align: middle;
+}
+.contact__details {
+  display: inline-block;
+  width: 90%;
+}
+.contact__remove {
+  display: inline-block;
+  width: 10%;
+}
+.contact__remove__action {
+  background-color: #CB444A;
+  height: 40px;
+  width: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 9px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  color: #222529;
+}
+p.phone-number {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  font-weight: 700;
+  color: #A6A6A6;
+}
+
+.add-contact-button {
+  background-color: #347BF6;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 175px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#add-contact-form {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 330px;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  width: 100%;
+}
+.form-group input {
+  width: 300px;
+  height: 30px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
