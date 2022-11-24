@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WDD.Services/1.0.0": {
+        "dependencies": {
+          "WDD.Models": "1.0.0",
+          "WDD.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "WDD.Services.dll": {}
+        }
+      },
+      "WDD.Models/1.0.0": {
+        "runtime": {
+          "WDD.Models.dll": {}
+        }
+      },
+      "WDD.Repositories/1.0.0": {
+        "dependencies": {
+          "WDD.Models": "1.0.0"
+        },
+        "runtime": {
+          "WDD.Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WDD.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WDD.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WDD.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
